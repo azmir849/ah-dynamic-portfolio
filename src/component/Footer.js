@@ -14,21 +14,18 @@ function Footer() {
         >
           <h2>MD. Azmir Hossen (Naeem)</h2>
           <p style={{ fontSize: "15px" }}>
-            With a team of innovators, we work on project and ideas that needs
-            to be implemented in society, by society to make society a better
-            place. Not only that, we work in a fun filled environment with joy
-            and games all the time to keep the community interactive and
-            engaging. Our aim? To grow with the community for a better future,
-            together, and to be the best we can.
+            Excellent focus, communication, and ability to learn rapidly. Excels
+            working in a team environment. Strong critical analysis and problem
+            solving.
           </p>
         </div>
         <div className="col-lg-6 footerColumn animate__animated animate__lightSpeedInLeft">
           {/* <h4>TrailBlazer</h4> */}
           <ul>
             <li>Quick Link :-</li>
-            <li>
+            {/* <li>
               <a href="#">Privacy Policy</a>
-            </li>
+            </li> */}
             <SocialMedia
               // facebook="https://www.facebook.com/caerusinfotech/"
               linkedin="https://www.linkedin.com/company/caerusinfotech/"
