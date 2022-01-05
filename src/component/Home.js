@@ -39,15 +39,6 @@ function Home() {
         <Image2 />
         <Team />
       </div> */}
-
-      <div class="text-center">
-       <Link className="nav-link" to="/Projects">
-       <button type="button" className="btn btn-secondary mb-5">
-          View More Projects
-        </button>
-       </Link>
-      </div>
-
       <Footer />
     </div>
   );

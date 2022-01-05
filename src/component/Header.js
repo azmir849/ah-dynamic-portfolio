@@ -62,7 +62,7 @@ function Header(props) {
             }}
           >
             <ul className="navbar-nav m-auto">
-              <li className="nav-item ">
+              <li className="nav-item">
                 <Link className="nav-link" to="/">
                   Home
                 </Link>

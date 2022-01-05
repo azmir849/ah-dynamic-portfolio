@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import icons from "./picture.png";
 import Modals from "./modals";
 import { Link } from "react-router-dom";
@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 function Project() {
  
   return (
-    <div>
+    <div className="container">
       <div
         className="alert alert-secondary"
         role="alert"
         style={{
           marginTop: "50px",
-          width: "80%",
+          width: "95%",
           marginLeft: "14px",
           borderRadius: "10px",
         }}
@@ -23,14 +23,14 @@ function Project() {
         {/* </Link> */}
       </div>
       <div className="row mt-5 mb-5 ">
-        <div className="col-lg-4  col-sm-12 ">
+        <div className="col-lg-4  col-sm-12">
           <div className="card " style={{ margin: "1rem" }}>
             <img
               src="https://www.bluerange.io/images/top5healthcare.png"
               className="card-img-top"
               alt="..."
               height="300px"
-              width="300px"
+              width="50%"
             />
             <div className="card-body">
               <h4 className="card-title">Helmet detection</h4>
@@ -56,7 +56,7 @@ function Project() {
               className="card-img-top"
               alt="..."
               height="300px"
-              width="300px"
+              width="50%"
             />
             <div className="card-body">
               <h4 className="card-title">Tracking hospital beds</h4>
@@ -98,6 +98,13 @@ function Project() {
             </div>
           </div>
         </div>
+      </div>
+      <div class="text-center">
+       <Link className="nav-link" to="/Projects">
+       <button type="button" className="btn btn-secondary mb-5">
+          View More Projects
+        </button>
+       </Link>
       </div>
     </div>
   );
