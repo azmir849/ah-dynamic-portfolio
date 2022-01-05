@@ -120,7 +120,9 @@ function Welcome() {
           {/* <h1 className="lead "> WELCOME TO TRAILBLAZER COMMUNITY</h1> */}
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe2MkVjOWPAviz3WKi03La1aDM2VUTObsLmwfCkfwy3MlTw2Q/viewform"
+            // href="https://docs.google.com/forms/d/e/1FAIpQLSe2MkVjOWPAviz3WKi03La1aDM2VUTObsLmwfCkfwy3MlTw2Q/viewform"
+            // class="btn btn-outline-info"
+            href="https://drive.google.com/file/d/1_0eZO_h3JKPcZaPsW4e_C0K3I8QEN6QU/view?usp=sharing"
             class="btn btn-outline-info"
           >
             DOWNLOAD RESUME

@@ -14,7 +14,7 @@ function Contact() {
             <h2 style={{ padding: "7rem 0 2rem 0" }}>Contact Me</h2>
             <p>
               Have queries? Need support? I
-              are always here for you.
+              am always here for you.
             </p>
 
             <div className="contact-form">
